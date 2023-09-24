@@ -1,5 +1,5 @@
 """
-This module contains some functions we previously defined.
+This module contains some functions previously defined in the notebooks "Python-basics".
 """
 
 def cobb_douglas(l, k, A=1.01, alpha = 0.75):
