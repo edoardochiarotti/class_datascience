@@ -25,7 +25,7 @@
 
 Python will be the main programming language we will be using throughout this course. To review some basics about Python:
 - Explore the "Python Basics" notebooks in the [Resources](https://github.com/edoardochiarotti/class_datascience/tree/main/2023/01_Introduction/Resources) folder
-- Practice with Python completing the exercises in the [Walkthrough](https://github.com/edoardochiarotti/class_datascience/tree/main/2023/01_Introduction/Walkthrough) folder   
+- Practice with Python completing the exercises in the [Practice](https://github.com/edoardochiarotti/class_datascience/tree/main/2023/01_Introduction/Practice) folder   
 - You can also follow this [Python course](https://www.kaggle.com/learn/python) from Kaggle.
 
 ## Additional resources (optional)

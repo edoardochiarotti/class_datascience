@@ -11,12 +11,12 @@
 	- How to import, extract, clean, replace, merge, manipulate data with Pandas?
 	- Application to the [Green Domestic Product](https://e4s.center/resources/reports/green-domestic-product/)
 
-## Walkthrough
+## Practice
 
-- Once you have read the Resources notebooks, train your data cleaning skills with [02_Data-Cleaning-Pandas](https://github.com/edoardochiarotti/class_datascience/blob/main/2023/02_Data-Cleaning/Walkthough/02_Data-Cleaning-Pandas.ipynb):
+- Once you have read the Resources notebooks, train your data cleaning skills with [02_Data-Cleaning-Pandas](https://github.com/edoardochiarotti/class_datascience/blob/main/2023/02_Data-Cleaning/Practice/02_Data-Cleaning-Pandas.ipynb):
 	- Learn to to import data, deal with missing values, remove duplicates, and merge dataframes
 	- You will work with real dataset: [Polity5](https://www.systemicpeace.org/inscrdata.html) and [Quality of Government Environmental Indicators Dataset](https://www.gu.se/en/quality-government/qog-data/data-downloads/environmental-indicators-dataset)
-- (optional) Keep practicing your python skills with [02_Practice-with-Python](https://github.com/edoardochiarotti/class_datascience/blob/main/2023/02_Data-Cleaning/Walkthough/02_Practice-with-Python.ipynb)
+- (optional) Keep practicing your python skills with [02_Practice-with-Python](https://github.com/edoardochiarotti/class_datascience/blob/main/2023/02_Data-Cleaning/Practice/02_Practice-with-Python.ipynb)
 
 
 ## Additional resources (optional)
