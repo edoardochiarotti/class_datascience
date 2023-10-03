@@ -20,5 +20,7 @@
 
 ## Additional resources
 
+- Read [A recipe to empirically answer any question quickly](https://towardsdatascience.com/a-recipe-to-empirically-answer-any-question-quickly-22e48c867dd5), by Quentin Gallea
+- Watch Quentin's Tedx Talk [How to question numbers and prevent manipulation](https://www.youtube.com/watch?v=bD1Jq6YwPk8)
 - Explore the [Python Graph Library](https://python-graph-gallery.com/) to discover how to make hundreds of charts with Python
 
