@@ -2,7 +2,7 @@
 
 ## Resources
 
-- [03_EDA_Data-visualization](https://github.com/edoardochiarotti/class_datascience/blob/main/2023/03_EDA_Visualization/Resources/03_EDA_Data-visualization.ipynb) covers:
+- [03_EDA_Data-visualization](https://github.com/edoardochiarotti/class_datascience/blob/main/2023/03_EDA-Visualization/Resources/03_EDA_Data-visualization.ipynb) covers:
 	- What is Exploratory Data Analysis (EDA)?
 	- What are descriptive statistics?
 	- How can data visualization help us?
