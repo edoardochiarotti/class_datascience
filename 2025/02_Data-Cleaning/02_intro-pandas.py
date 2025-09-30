@@ -132,3 +132,9 @@ df_agg.sort_values(["variable","Year"], inplace=True)
 
 # pivot back in case
 df_agg_pivoted = df_agg.pivot(index=["Year"], columns='variable', values='value').reset_index()
+
+################
+##### SAVE #####
+################
+
+df.to_csv("data_generated/data_intro_co2.csv", index=False)
