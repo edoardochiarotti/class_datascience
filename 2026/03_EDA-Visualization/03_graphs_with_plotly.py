@@ -12,6 +12,31 @@ import statsmodels
 
 df = pd.read_csv("../02_Data-Cleaning/data_generated/data_intro_co2.csv")
 
+# summary stats
+df.loc[:,["CO2_emissions[MtCO2]","population[milpeople]", "CO2_emissions_per_capita[tCO2/person]"]].describe()
+
+#####################################
+##### MAKE BOXPLOT OF VARIABLES #####
+#####################################
+
+# all data
+fig = px.box(df, y="CO2_emissions_per_capita[tCO2/person]",
+             labels={
+                 "O2_emissions_per_capita[tCO2/person]": "CO2 emissions per capita (tCO2 per person)"
+                 },
+             title="Distribution of CO2 emissions per capita"
+             )
+fig.show()
+
+# by country
+fig = px.box(df, x="Country", y="CO2_emissions_per_capita[tCO2/person]", color = "Country",
+             labels={
+                 "O2_emissions_per_capita[tCO2/person]": "CO2 emissions per capita (tCO2 per person)"
+                 },
+             title="Distribution of CO2 emissions per capita per country"
+             )
+fig.show()
+
 #####################################################
 ##### MAKE TIME SERIES OF AVERAGE CO2 EMISSIONS #####
 #####################################################
@@ -147,28 +172,6 @@ fig = px.scatter(df_graph, x="population[milpeople]", y="CO2_emissions[MtCO2]",
                  },
                  title="CO2 emissions vs. population"
 )
-fig.show()
-
-#####################################
-##### MAKE BOXPLOT OF VARIABLES #####
-#####################################
-
-# all data
-fig = px.box(df, y="CO2_emissions_per_capita[tCO2/person]",
-             labels={
-                 "O2_emissions_per_capita[tCO2/person]": "CO2 emissions per capita (tCO2 per person)"
-                 },
-             title="Distribution of CO2 emissions per capita"
-             )
-fig.show()
-
-# by country
-fig = px.box(df, x="Country", y="CO2_emissions_per_capita[tCO2/person]", color = "Country",
-             labels={
-                 "O2_emissions_per_capita[tCO2/person]": "CO2 emissions per capita (tCO2 per person)"
-                 },
-             title="Distribution of CO2 emissions per capita per country"
-             )
 fig.show()
 
 
